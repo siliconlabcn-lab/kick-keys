@@ -1,0 +1,61 @@
+name: Publish game to EDU
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: kick-keys-production
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - name: Publish only the kick-keys directory
+        env:
+          EDU_DEPLOY_KEY: ${{ secrets.EDU_DEPLOY_KEY }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -n "$EDU_DEPLOY_KEY"
+          eval "$(ssh-agent -s)" >/dev/null
+          trap 'ssh-agent -k >/dev/null' EXIT
+          printf '%s\n' "$EDU_DEPLOY_KEY" | ssh-add -
+          unset EDU_DEPLOY_KEY
+          mkdir -p ~/.ssh
+          printf '%s\n' 'github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl' >> ~/.ssh/known_hosts
+          export GIT_SSH_COMMAND='ssh -o StrictHostKeyChecking=yes'
+          target="$RUNNER_TEMP/edu-publish"
+          git clone --depth 1 --branch main git@github.com:siliconlabcn-lab/edu.git "$target"
+          mkdir -p "$target/kick-keys"
+          rsync -a --delete dist/ "$target/kick-keys/"
+          git -C "$target" config user.name 'github-actions[bot]'
+          git -C "$target" config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git -C "$target" add -- kick-keys
+          if git -C "$target" diff --cached --quiet; then
+            echo 'Game already up to date.'
+            exit 0
+          fi
+          git -C "$target" commit -m "Deploy Kick & Keys ${GITHUB_SHA:0:7}"
+          for attempt in 1 2 3; do
+            if git -C "$target" push origin HEAD:main; then
+              echo 'Published: https://siliconlabcn-lab.github.io/edu/kick-keys/' >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+            git -C "$target" pull --rebase origin main
+          done
+          exit 1

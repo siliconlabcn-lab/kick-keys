@@ -1,6 +1,6 @@
 export type ProfileId = 'child' | 'parent';
 export type RecordItem = {id:string;title:string;accuracy:number;correct:number;mistakes:number;seconds:number;cpm:number;date:string;points:number};
-export type Progress = {records:RecordItem[];completed:string[];points:number};
+export type Progress = {records:RecordItem[];completed:string[];points:number;players?:string[];achievements?:string[]};
 export const EMPTY:Progress = {records:[],completed:[],points:0};
 export const LEGACY_STORAGE = 'kick-and-keys-v1';
 export const PROFILE_SESSION = 'kick-and-keys-active-profile';
@@ -15,7 +15,7 @@ function parseProgress(raw:string|null):Progress|null {
   try {
     const data=JSON.parse(raw);
     if(!data||!Array.isArray(data.records)||!Array.isArray(data.completed)||typeof data.points!=='number'||!Number.isFinite(data.points))return null;
-    return {records:data.records.filter((r:RecordItem)=>r&&typeof r.id==='string'&&typeof r.title==='string'&&typeof r.date==='string'&&['accuracy','correct','mistakes','seconds','cpm','points'].every(k=>typeof r[k as keyof RecordItem]==='number'&&Number.isFinite(r[k as keyof RecordItem]))),completed:data.completed.filter((x:unknown)=>typeof x==='string'),points:data.points};
+    return {records:data.records.filter((r:RecordItem)=>r&&typeof r.id==='string'&&typeof r.title==='string'&&typeof r.date==='string'&&['accuracy','correct','mistakes','seconds','cpm','points'].every(k=>typeof r[k as keyof RecordItem]==='number'&&Number.isFinite(r[k as keyof RecordItem]))),completed:data.completed.filter((x:unknown)=>typeof x==='string'),points:Math.max(0,data.points),players:Array.isArray(data.players)?data.players.filter((x:unknown)=>typeof x==='string'):[],achievements:Array.isArray(data.achievements)?data.achievements.filter((x:unknown)=>typeof x==='string'):[]};
   }catch{return null;}
 }
 export function readProgress(profile:ProfileId):Progress|null {

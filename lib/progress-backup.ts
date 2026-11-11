@@ -25,7 +25,7 @@ export function parseBackup(text: string): Progress {
     }
     return { id: r.id, title: r.title, date: r.date, accuracy: r.accuracy, correct: r.correct, mistakes: r.mistakes, seconds: r.seconds, cpm: r.cpm, points: r.points };
   });
-  return { records, completed: [...new Set<string>(p.completed)], points: p.points };
+  return { records, completed: [...new Set<string>(p.completed)], points: p.points, ...(Array.isArray(p.players)?{players:[...new Set<string>(p.players.filter((x:unknown)=>typeof x==='string'))]}:{}), ...(Array.isArray(p.achievements)?{achievements:p.achievements.filter((x:unknown)=>typeof x==='string')}:{}) };
 }
 
 // A duplicate import never awards stars again. Keep the higher lifetime total,
@@ -40,5 +40,11 @@ export function mergeProgress(current: Progress, imported: Progress): Progress {
     records: [...records.values()].sort((a, b) => Date.parse(b.date) - Date.parse(a.date)).slice(0, 100),
     completed: [...new Set([...current.completed, ...imported.completed])],
     points: Math.max(current.points, imported.points),
+    players: [...new Set([...(current.players||[]),...(imported.players||[])])],
+    achievements:[...new Set([...(current.achievements||[]),...(imported.achievements||[])])].filter(a=>{
+      if(!a.startsWith('gift:'))return true;
+      const id=a.slice(5);
+      return ![current,imported].some(p=>p.players?.includes(id)&&!p.achievements?.includes(a));
+    }),
   };
 }

@@ -1,0 +1,7 @@
+Pinyin pronunciation recordings
+Source repository: https://github.com/cmguo/PinYinSound
+Original files: https://raw.githubusercontent.com/cmguo/PinYinSound/refs/heads/master/{syllable}.mp3
+Retrieved: 2026-11-11
+Local files are unmodified recordings. lib/pinyin-audio.json maps curriculum tasks to these recordings.
+These are separate from browser-generated Chinese/English word and sentence speech.
+No claim of ownership or a new license is made for these third-party recordings.

@@ -1,0 +1,1906 @@
+{
+  "zh|我": {
+    "text": "我",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-3d782cad759c061bee8d.mp3"
+  },
+  "zh|你": {
+    "text": "你",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-cca1faf56a8a9790dde9.mp3"
+  },
+  "zh|他": {
+    "text": "他",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-16e6501f6d94bcd2513d.mp3"
+  },
+  "zh|她": {
+    "text": "她",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-fac3cfbcd2c31fabc1f3.mp3"
+  },
+  "zh|学": {
+    "text": "学",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-1c71ee11db83f8256295.mp3"
+  },
+  "zh|生": {
+    "text": "生",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-48fc7ed499266749277c.mp3"
+  },
+  "zh|书": {
+    "text": "书",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-a8bffde98dc62ab1e5fd.mp3"
+  },
+  "zh|笔": {
+    "text": "笔",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-a8b026a5601bf2c80249.mp3"
+  },
+  "zh|写": {
+    "text": "写",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-bce21a79fca7fe80b061.mp3"
+  },
+  "zh|读": {
+    "text": "读",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-003df4a86386fbf25f99.mp3"
+  },
+  "zh|看": {
+    "text": "看",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-3b1c5b653d6dcf73a444.mp3"
+  },
+  "zh|听": {
+    "text": "听",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-98c380db0c88f1bce00a.mp3"
+  },
+  "zh|说": {
+    "text": "说",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-694150c67d80e45a83ae.mp3"
+  },
+  "zh|问": {
+    "text": "问",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-2ba3c864a769fcebf5df.mp3"
+  },
+  "zh|答": {
+    "text": "答",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-1c9d97c958aec95e3cf3.mp3"
+  },
+  "zh|想": {
+    "text": "想",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-e27f8514db13538c94a9.mp3"
+  },
+  "zh|好": {
+    "text": "好",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-c0e8479621d0bebf1663.mp3"
+  },
+  "zh|来": {
+    "text": "来",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-6ffc4387dc760bd75651.mp3"
+  },
+  "zh|去": {
+    "text": "去",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-1a4c91683992638cff0c.mp3"
+  },
+  "zh|回": {
+    "text": "回",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-409416fb4126b0ed9879.mp3"
+  },
+  "zh|球": {
+    "text": "球",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-e012e5befca3c1d3f962.mp3"
+  },
+  "zh|门": {
+    "text": "门",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-26efd960504eaed782bc.mp3"
+  },
+  "zh|队": {
+    "text": "队",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-7239486104b60e4e1247.mp3"
+  },
+  "zh|跑": {
+    "text": "跑",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-6ef04ca5ea88ceaeeefc.mp3"
+  },
+  "zh|传": {
+    "text": "传",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-ed3611c2cfdb13bb0160.mp3"
+  },
+  "zh|接": {
+    "text": "接",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-e1111a87f632bcb6e6e9.mp3"
+  },
+  "zh|踢": {
+    "text": "踢",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-5e2dce4a347b44c2e57e.mp3"
+  },
+  "zh|射": {
+    "text": "射",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-5e47682c8b42eadf103e.mp3"
+  },
+  "zh|停": {
+    "text": "停",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-2173a37c8cf6dbc15c35.mp3"
+  },
+  "zh|跳": {
+    "text": "跳",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-209a01d539a5b7e55488.mp3"
+  },
+  "zh|手": {
+    "text": "手",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-531fddb2fd70f62e7019.mp3"
+  },
+  "zh|头": {
+    "text": "头",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-fd8a2bc107043831f210.mp3"
+  },
+  "zh|脚": {
+    "text": "脚",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-ac967733d0342a0eb28f.mp3"
+  },
+  "zh|左": {
+    "text": "左",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-d0521d31f71c1007d40b.mp3"
+  },
+  "zh|右": {
+    "text": "右",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-c45a3de8ff18b7a13b7f.mp3"
+  },
+  "zh|前": {
+    "text": "前",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-5557b049452970944061.mp3"
+  },
+  "zh|后": {
+    "text": "后",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-a2d8729862b02ec21b84.mp3"
+  },
+  "zh|快": {
+    "text": "快",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-891936d4b7528e0c1332.mp3"
+  },
+  "zh|慢": {
+    "text": "慢",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-6b9e97fff2723de9ecd2.mp3"
+  },
+  "zh|赢": {
+    "text": "赢",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-8277b84c00735e456f30.mp3"
+  },
+  "zh|早上": {
+    "text": "早上",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-0af34002f80750d953d5.mp3"
+  },
+  "zh|上学": {
+    "text": "上学",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-eaf205cc8436376aa725.mp3"
+  },
+  "zh|书包": {
+    "text": "书包",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-2a657f418fcd91a598e0.mp3"
+  },
+  "zh|铅笔": {
+    "text": "铅笔",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-544db90371340d8bbd99.mp3"
+  },
+  "zh|写字": {
+    "text": "写字",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-16667209bfd20bdcb878.mp3"
+  },
+  "zh|读书": {
+    "text": "读书",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-6b7febc794848bcdfd7f.mp3"
+  },
+  "zh|同学": {
+    "text": "同学",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-aad6823192401fe5c339.mp3"
+  },
+  "zh|老师": {
+    "text": "老师",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-d5d498755a1245535249.mp3"
+  },
+  "zh|教室": {
+    "text": "教室",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-adcdffaad87d654b3388.mp3"
+  },
+  "zh|操场": {
+    "text": "操场",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-af23eb2cec403218d61e.mp3"
+  },
+  "zh|体育课": {
+    "text": "体育课",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-f3e82e70dd7f74bd7b36.mp3"
+  },
+  "zh|休息": {
+    "text": "休息",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-5d4156f0468cdebb9491.mp3"
+  },
+  "zh|游戏": {
+    "text": "游戏",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-cae23042dbecb8683fe7.mp3"
+  },
+  "zh|拍手": {
+    "text": "拍手",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-33559908a4fddd480a5a.mp3"
+  },
+  "zh|抬头": {
+    "text": "抬头",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-d41db18f0d6df344f497.mp3"
+  },
+  "zh|小伙伴": {
+    "text": "小伙伴",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-35f00cfd47733fca1259.mp3"
+  },
+  "zh|一起": {
+    "text": "一起",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-802d7df5d1b6af203f6d.mp3"
+  },
+  "zh|认真": {
+    "text": "认真",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-ae3b3601472d0cca9bff.mp3"
+  },
+  "zh|努力": {
+    "text": "努力",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-6cf6f904131e1bd5feab.mp3"
+  },
+  "zh|放学": {
+    "text": "放学",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-7e19b04d189c2c748f1f.mp3"
+  },
+  "zh|早上好，今天见！": {
+    "text": "早上好，今天见！",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-17570f668938bbc1969f.mp3"
+  },
+  "zh|我把足球放进书包。": {
+    "text": "我把足球放进书包。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-bf3c23723c9431a57dd6.mp3"
+  },
+  "zh|下课了，我们一起去操场。": {
+    "text": "下课了，我们一起去操场。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-4c40facf7383b1c9f3fc.mp3"
+  },
+  "zh|你的球衣是什么颜色？": {
+    "text": "你的球衣是什么颜色？",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-5d33ba3f72b4708ab2dd.mp3"
+  },
+  "zh|我穿着一件蓝色的球衣。": {
+    "text": "我穿着一件蓝色的球衣。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-ce518771d92bc3394434.mp3"
+  },
+  "zh|先喝一口水，再去热身。": {
+    "text": "先喝一口水，再去热身。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-59579820a854424afd37.mp3"
+  },
+  "zh|老师，请问我们可以开球了吗？": {
+    "text": "老师，请问我们可以开球了吗？",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-73609f1286ec964ee8a0.mp3"
+  },
+  "zh|大家站好位置，比赛马上开始！": {
+    "text": "大家站好位置，比赛马上开始！",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-33a02fd3182347dfc80a.mp3"
+  },
+  "zh|哨声响了，球滚到了脚边。": {
+    "text": "哨声响了，球滚到了脚边。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-a6f5ffcbfd2f313bda7e.mp3"
+  },
+  "zh|今天玩得真开心，明天再见！": {
+    "text": "今天玩得真开心，明天再见！",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-62a794a63bb701d54c0c.mp3"
+  },
+  "zh|把球传给左边的队友。": {
+    "text": "把球传给左边的队友。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-fa6824841c9f09299ec3.mp3"
+  },
+  "zh|我在右边，你看见我了吗？": {
+    "text": "我在右边，你看见我了吗？",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-0a5de9629ee4616c925a.mp3"
+  },
+  "zh|别急，先把球停下来。": {
+    "text": "别急，先把球停下来。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-5d53b7a15be0315ce3a7.mp3"
+  },
+  "zh|你传得真准，再来一次！": {
+    "text": "你传得真准，再来一次！",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-17154a3362d5a8254e84.mp3"
+  },
+  "zh|门将抱住了球，大家回到自己的位置。": {
+    "text": "门将抱住了球，大家回到自己的位置。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-c02e7bd06aef2746507c.mp3"
+  },
+  "zh|我们现在是几比几？": {
+    "text": "我们现在是几比几？",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-dbb416bba49d876dc72d.mp3"
+  },
+  "zh|比分是一比一，还有时间。": {
+    "text": "比分是一比一，还有时间。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-0e18d1e958f772f7ee87.mp3"
+  },
+  "zh|不管谁赢，赛后都要握手。": {
+    "text": "不管谁赢，赛后都要握手。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-10d326b29d5f827389e4.mp3"
+  },
+  "zh|刚才那次配合，我们做得很好。": {
+    "text": "刚才那次配合，我们做得很好。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-27c5028751072af04b64.mp3"
+  },
+  "zh|谢谢你和我一起踢球！": {
+    "text": "谢谢你和我一起踢球！",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-62219ab1916730dbbf90.mp3"
+  },
+  "zh|周五放学后，小雨和同学们来到操场。": {
+    "text": "周五放学后，小雨和同学们来到操场。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-bad96ce1f33e9bb558e3.mp3"
+  },
+  "zh|他们分成两队，约好踢一场友谊赛。": {
+    "text": "他们分成两队，约好踢一场友谊赛。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-9e8f9b2696950f820529.mp3"
+  },
+  "zh|开场不久，对方就进了一球。": {
+    "text": "开场不久，对方就进了一球。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-0960df86e8415001b932.mp3"
+  },
+  "zh|小雨有些着急，一拿到球就往前跑。": {
+    "text": "小雨有些着急，一拿到球就往前跑。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-d94660dd2f13399a6abb.mp3"
+  },
+  "zh|可是两名对手很快围了上来。": {
+    "text": "可是两名对手很快围了上来。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-159a0a6872f610292cfa.mp3"
+  },
+  "zh|队友大声喊，我在左边！": {
+    "text": "队友大声喊，我在左边！",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-3f9049c0c5c31701323b.mp3"
+  },
+  "zh|小雨抬起头，把球传了过去。": {
+    "text": "小雨抬起头，把球传了过去。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-4112ae5df0c82eb66f88.mp3"
+  },
+  "zh|队友接住球，又轻轻回传。": {
+    "text": "队友接住球，又轻轻回传。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-dcd2513087a0bdd85854.mp3"
+  },
+  "zh|这一次，小雨跑到了空处，顺势把球踢进球门。": {
+    "text": "这一次，小雨跑到了空处，顺势把球踢进球门。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-6afd56dc5afd0c0d866a.mp3"
+  },
+  "zh|比赛结束时，比分是一比一。": {
+    "text": "比赛结束时，比分是一比一。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-c5255096d284a3ead535.mp3"
+  },
+  "zh|两队互相握手，还约好下周再踢。": {
+    "text": "两队互相握手，还约好下周再踢。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-4478a305bb96b5b7038c.mp3"
+  },
+  "zh|小雨记住了，抬头看看队友，球才会走得更远。": {
+    "text": "小雨记住了，抬头看看队友，球才会走得更远。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-44c38069f4794d19d6b5.mp3"
+  },
+  "zh|星期六的早晨，小宁第一次站在球门前。": {
+    "text": "星期六的早晨，小宁第一次站在球门前。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-cf8b678033776dbeed66.mp3"
+  },
+  "zh|他拉紧手套，心里有一点紧张。": {
+    "text": "他拉紧手套，心里有一点紧张。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-fc36a828e94544f28d10.mp3"
+  },
+  "zh|队友告诉他，有事就大声说。": {
+    "text": "队友告诉他，有事就大声说。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-1e4ab75a04a33ad2156a.mp3"
+  },
+  "zh|比赛开始后，一个高球飞了过来。": {
+    "text": "比赛开始后，一个高球飞了过来。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-d9e08a2671bc061ad57c.mp3"
+  },
+  "zh|小宁喊了一声，我来接！": {
+    "text": "小宁喊了一声，我来接！",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-d8b701d6a1db0927bc37.mp3"
+  },
+  "zh|身前的队友让开一步，他稳稳抱住了球。": {
+    "text": "身前的队友让开一步，他稳稳抱住了球。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-2a4695d7e6848316d831.mp3"
+  },
+  "zh|后来，对方又踢出一脚低球。": {
+    "text": "后来，对方又踢出一脚低球。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-1723837676207a76ff42.mp3"
+  },
+  "zh|小宁弯下膝盖，用双手把球挡了下来。": {
+    "text": "小宁弯下膝盖，用双手把球挡了下来。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-b375c983eb4ce8ba20d7.mp3"
+  },
+  "zh|他看见右边有空位，就把球传给队友。": {
+    "text": "他看见右边有空位，就把球传给队友。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-39bc1fbcc51e91f77eb9.mp3"
+  },
+  "zh|哨声响起时，大家跑过来和他击掌。": {
+    "text": "哨声响起时，大家跑过来和他击掌。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-8357b54cb5a18eb4ccee.mp3"
+  },
+  "zh|小宁笑着说，下次我还想当门将。": {
+    "text": "小宁笑着说，下次我还想当门将。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-d2ce4917b3273656200d.mp3"
+  },
+  "zh|原来有人一起配合，守门也能很有意思。": {
+    "text": "原来有人一起配合，守门也能很有意思。",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-35fc3c17c514a05a045f.mp3"
+  },
+  "en|red": {
+    "text": "red",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-871a023e6697bf6061ef.mp3"
+  },
+  "en|blue": {
+    "text": "blue",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-80b1280ac175760f2b93.mp3"
+  },
+  "en|green": {
+    "text": "green",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-5f09e40d03fc5a874964.mp3"
+  },
+  "en|yellow": {
+    "text": "yellow",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-bfb97b76aad6ab05170f.mp3"
+  },
+  "en|white": {
+    "text": "white",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-013b819c90baca2127fa.mp3"
+  },
+  "en|black": {
+    "text": "black",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-0821bb359aaf548dac8c.mp3"
+  },
+  "en|one": {
+    "text": "one",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-00db743a33b932920a99.mp3"
+  },
+  "en|two": {
+    "text": "two",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-141d24c87d8de18bd6c2.mp3"
+  },
+  "en|three": {
+    "text": "three",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-381e244095ecff9aea0b.mp3"
+  },
+  "en|four": {
+    "text": "four",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-3d2a653e03589345e369.mp3"
+  },
+  "en|five": {
+    "text": "five",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-5a1745c715e1f7cc9a13.mp3"
+  },
+  "en|six": {
+    "text": "six",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-042704ade2005bd483c9.mp3"
+  },
+  "en|seven": {
+    "text": "seven",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-ecfda86d4eca2d760d21.mp3"
+  },
+  "en|eight": {
+    "text": "eight",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-aa99be54557bae189f30.mp3"
+  },
+  "en|nine": {
+    "text": "nine",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-2beef636aa1abd0f40f0.mp3"
+  },
+  "en|ten": {
+    "text": "ten",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-78fb8fee66c47a0159b7.mp3"
+  },
+  "en|red team": {
+    "text": "red team",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-30ec3da0454918c8498a.mp3"
+  },
+  "en|blue shirt": {
+    "text": "blue shirt",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-213c86b1b742e23c3031.mp3"
+  },
+  "en|two balls": {
+    "text": "two balls",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-30274d49ace31e55af95.mp3"
+  },
+  "en|three cones": {
+    "text": "three cones",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-776130f67f6a2afeed2f.mp3"
+  },
+  "en|number seven": {
+    "text": "number seven",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-9d95010fbb7627fbb29b.mp3"
+  },
+  "en|number ten": {
+    "text": "number ten",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-78c45adf126435efd2fc.mp3"
+  },
+  "en|green field": {
+    "text": "green field",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-5c3f0e8d1b41e0469bb2.mp3"
+  },
+  "en|white line": {
+    "text": "white line",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-7b2aff530b95e99f11a5.mp3"
+  },
+  "en|player": {
+    "text": "player",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-2ed55b58200f97dfe057.mp3"
+  },
+  "en|coach": {
+    "text": "coach",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-bf05efdd5c0f8f1d7194.mp3"
+  },
+  "en|keeper": {
+    "text": "keeper",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-dc56660466c644438260.mp3"
+  },
+  "en|captain": {
+    "text": "captain",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-e0adb310fd6d7ac331f7.mp3"
+  },
+  "en|referee": {
+    "text": "referee",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-69efd0ecf3aed65e9ddb.mp3"
+  },
+  "en|field": {
+    "text": "field",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-55e100abb631ba42dba6.mp3"
+  },
+  "en|goal": {
+    "text": "goal",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-97a4eb8f5e6640e1bb1b.mp3"
+  },
+  "en|net": {
+    "text": "net",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-700841e98bd8216eec35.mp3"
+  },
+  "en|line": {
+    "text": "line",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-3dd64e94de71be54e708.mp3"
+  },
+  "en|bench": {
+    "text": "bench",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-09a998fbee0b68636d77.mp3"
+  },
+  "en|shirt": {
+    "text": "shirt",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-d74324f597e850f42823.mp3"
+  },
+  "en|boots": {
+    "text": "boots",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-37b22f3a6e51b98b179b.mp3"
+  },
+  "en|gloves": {
+    "text": "gloves",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-9d4730cfb3c7a061a29c.mp3"
+  },
+  "en|whistle": {
+    "text": "whistle",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-fc6e7c39851078a6a133.mp3"
+  },
+  "en|flag": {
+    "text": "flag",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-f17b74b21229047c048d.mp3"
+  },
+  "en|left": {
+    "text": "left",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-e9fae4d513c551ba4710.mp3"
+  },
+  "en|right": {
+    "text": "right",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-bfbf33aef4d8aae2f5fb.mp3"
+  },
+  "en|front": {
+    "text": "front",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-eb78258c81701713cdea.mp3"
+  },
+  "en|back": {
+    "text": "back",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-a1a50bd17ca515dc4818.mp3"
+  },
+  "en|middle": {
+    "text": "middle",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-bfce9183cdc0cd326282.mp3"
+  },
+  "en|Hi, I am ready.": {
+    "text": "Hi, I am ready.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-e2d2cbe66fa68392489c.mp3"
+  },
+  "en|Can I play with you?": {
+    "text": "Can I play with you?",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-ce6299efa960adddadfb.mp3"
+  },
+  "en|Which team am I on?": {
+    "text": "Which team am I on?",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-a09da9b1a7e1e77f34a8.mp3"
+  },
+  "en|You are on the blue team.": {
+    "text": "You are on the blue team.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-4fd6f3a5a11f61ad5761.mp3"
+  },
+  "en|I can play on the left.": {
+    "text": "I can play on the left.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-2f91d00f42af4f07e503.mp3"
+  },
+  "en|Please pass the ball to me.": {
+    "text": "Please pass the ball to me.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-5fb2ddb56ae3f209268d.mp3"
+  },
+  "en|Look up and find your team.": {
+    "text": "Look up and find your team.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-d46d88507ff82000662c.mp3"
+  },
+  "en|Wait for me by the goal.": {
+    "text": "Wait for me by the goal.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-13aec65a54db0464ba52.mp3"
+  },
+  "en|Can you help me?": {
+    "text": "Can you help me?",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-b76b83f99aeab71c3754.mp3"
+  },
+  "en|Yes, I can help.": {
+    "text": "Yes, I can help.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-08511cf4418642a2a174.mp3"
+  },
+  "en|Let us practice together.": {
+    "text": "Let us practice together.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-886e9329726e3f722824.mp3"
+  },
+  "en|Thank you for playing with me.": {
+    "text": "Thank you for playing with me.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-90038e54d76f9b3e1c6d.mp3"
+  },
+  "en|It is Friday after school.": {
+    "text": "It is Friday after school.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-60220ffcc6447edf0df3.mp3"
+  },
+  "en|Mia and her friends go to the field.": {
+    "text": "Mia and her friends go to the field.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-0981e6b696206ab3396f.mp3"
+  },
+  "en|They are ready for a football match.": {
+    "text": "They are ready for a football match.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-47267f1b188ed89c32ec.mp3"
+  },
+  "en|The red team scores first.": {
+    "text": "The red team scores first.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-ccd935e3fa51706346dd.mp3"
+  },
+  "en|Mia gets the ball and runs fast.": {
+    "text": "Mia gets the ball and runs fast.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-7421a6f39434b06a95bc.mp3"
+  },
+  "en|Two players run to stop her.": {
+    "text": "Two players run to stop her.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-5be14986bc2cbaee5490.mp3"
+  },
+  "en|Mia looks up and sees Leo.": {
+    "text": "Mia looks up and sees Leo.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-b5935cb2ac9b6ab8bb82.mp3"
+  },
+  "en|She passes the ball to him.": {
+    "text": "She passes the ball to him.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-934262098b7566ae6f33.mp3"
+  },
+  "en|Leo passes it back, and Mia scores!": {
+    "text": "Leo passes it back, and Mia scores!",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-8bbc894376186a0e6a3b.mp3"
+  },
+  "en|The score is one to one.": {
+    "text": "The score is one to one.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-dc933fc9ab85dc27ed88.mp3"
+  },
+  "en|The players shake hands.": {
+    "text": "The players shake hands.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-362f438f823bda62bee4.mp3"
+  },
+  "en|Mia says, \"Good game, everyone!\"": {
+    "text": "Mia says, \"Good game, everyone!\"",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-75f7ae36aa17b98e697d.mp3"
+  },
+  "en|Ben puts on his gloves.": {
+    "text": "Ben puts on his gloves.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-a31b5e0b64e05f49b1a0.mp3"
+  },
+  "en|It is his first match as a keeper.": {
+    "text": "It is his first match as a keeper.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-c8abb7ba66f8e9bcdd3f.mp3"
+  },
+  "en|He asks, \"Can I do this?\"": {
+    "text": "He asks, \"Can I do this?\"",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-b692c794c422ad5e8fae.mp3"
+  },
+  "en|The ball comes high and fast.": {
+    "text": "The ball comes high and fast.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-c9952d2b20ecf9e55c3e.mp3"
+  },
+  "en|Ben calls, \"I have it!\"": {
+    "text": "Ben calls, \"I have it!\"",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-91fa2af195b46f1282d7.mp3"
+  },
+  "en|He catches the ball with both hands.": {
+    "text": "He catches the ball with both hands.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-0cd9e505b8bc68acb398.mp3"
+  },
+  "en|Then he sees a friend on the right.": {
+    "text": "Then he sees a friend on the right.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-04ef8ce480ec898b0ec6.mp3"
+  },
+  "en|He rolls the ball to her.": {
+    "text": "He rolls the ball to her.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-67562b4db864c7440662.mp3"
+  },
+  "en|She runs up the field and passes again.": {
+    "text": "She runs up the field and passes again.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-796bbf182c8c6cbb1c05.mp3"
+  },
+  "en|At the end, his team cheers.": {
+    "text": "At the end, his team cheers.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-07fbc81902653ac28c65.mp3"
+  },
+  "en|Ben smiles and takes off his gloves.": {
+    "text": "Ben smiles and takes off his gloves.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-ca6bc83268406074e053.mp3"
+  },
+  "en|He wants to play in goal again.": {
+    "text": "He wants to play in goal again.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-ff0a958d5ef2c60e5d35.mp3"
+  },
+  "zh|足球": {
+    "text": "足球",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-98fc2b67d91badc953c9.mp3"
+  },
+  "zh|球门": {
+    "text": "球门",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-dff4514ae7f7faf5134f.mp3"
+  },
+  "zh|传球": {
+    "text": "传球",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-f07d5ea14b070ecc09d1.mp3"
+  },
+  "zh|射门": {
+    "text": "射门",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-9b74686f0c3cc2bf7eed.mp3"
+  },
+  "zh|队友": {
+    "text": "队友",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-2897185dd272503ca335.mp3"
+  },
+  "zh|跑动": {
+    "text": "跑动",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-9a14a3748f462d84b271.mp3"
+  },
+  "zh|接球": {
+    "text": "接球",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-6125ddc9da726d5310dc.mp3"
+  },
+  "zh|停球": {
+    "text": "停球",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-79ba2575a615e73b8b9d.mp3"
+  },
+  "zh|回传": {
+    "text": "回传",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-357cae1e2aea44eebded.mp3"
+  },
+  "zh|左边": {
+    "text": "左边",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-24de0db90bb95094dfe7.mp3"
+  },
+  "zh|右边": {
+    "text": "右边",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-004de0304915f0bf3e12.mp3"
+  },
+  "zh|球衣": {
+    "text": "球衣",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-abddf41f991d9a74c79d.mp3"
+  },
+  "zh|球鞋": {
+    "text": "球鞋",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-9139f6b18f3107ec2806.mp3"
+  },
+  "zh|门将": {
+    "text": "门将",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-322f24d8faa070e68a23.mp3"
+  },
+  "zh|守门员": {
+    "text": "守门员",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-32277fe041d1e405146c.mp3"
+  },
+  "zh|教练": {
+    "text": "教练",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-63c63ef48eddef460ae9.mp3"
+  },
+  "zh|队长": {
+    "text": "队长",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-7ddcfdf2bfc715c73640.mp3"
+  },
+  "zh|裁判": {
+    "text": "裁判",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-528f32f52bc62a7758da.mp3"
+  },
+  "zh|球场": {
+    "text": "球场",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-61025a2b745ea6b3670b.mp3"
+  },
+  "zh|热身": {
+    "text": "热身",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-035d46f0f28d167c2a19.mp3"
+  },
+  "zh|中国": {
+    "text": "中国",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-c04c669870a993b17c01.mp3"
+  },
+  "zh|加油": {
+    "text": "加油",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-96e85c7a6492c49399b8.mp3"
+  },
+  "zh|女足": {
+    "text": "女足",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-793ff990d873fa012b07.mp3"
+  },
+  "zh|团结": {
+    "text": "团结",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-723e868f7d12c45e049a.mp3"
+  },
+  "zh|坚持": {
+    "text": "坚持",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-de18298aaf3f77ce8dfe.mp3"
+  },
+  "zh|训练": {
+    "text": "训练",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-fb4205e4aa194c2a1609.mp3"
+  },
+  "zh|比赛": {
+    "text": "比赛",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-e3db1121b499507372c4.mp3"
+  },
+  "zh|比分": {
+    "text": "比分",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-51a640692aa04c221fec.mp3"
+  },
+  "zh|落后": {
+    "text": "落后",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-a41bd1f4e39ed04b1f80.mp3"
+  },
+  "zh|扳平": {
+    "text": "扳平",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-ac57d9e5773612306b14.mp3"
+  },
+  "zh|领先": {
+    "text": "领先",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-4cb087ad78d13417a3cd.mp3"
+  },
+  "zh|换人": {
+    "text": "换人",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-a04a29b06cadbdfc2a93.mp3"
+  },
+  "zh|反击": {
+    "text": "反击",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-876c328bbc2b6774f134.mp3"
+  },
+  "zh|半场": {
+    "text": "半场",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-5ae8fc1c8c3d335e4254.mp3"
+  },
+  "zh|决赛": {
+    "text": "决赛",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-7d2c5d465e4ec48e1b0c.mp3"
+  },
+  "zh|奖杯": {
+    "text": "奖杯",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-e58ea362c56873b28418.mp3"
+  },
+  "zh|互助": {
+    "text": "互助",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-eeef563449da033dbd3d.mp3"
+  },
+  "zh|握手": {
+    "text": "握手",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-cf9ebbf41f937030b181.mp3"
+  },
+  "zh|友谊": {
+    "text": "友谊",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-55b6c4f03b9c78ceace2.mp3"
+  },
+  "zh|中国队": {
+    "text": "中国队",
+    "language": "zh",
+    "voice": "zh-CN-XiaoxiaoNeural",
+    "rate": "-10%",
+    "file": "audio/courses/zh-fd88d43326f2832d4604.mp3"
+  },
+  "en|ball": {
+    "text": "ball",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-c3b67eed2aeba8b63c87.mp3"
+  },
+  "en|team": {
+    "text": "team",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-aba2df6ab6e6a59a7e16.mp3"
+  },
+  "en|pass": {
+    "text": "pass",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-fcb25da9b6eb837c87e0.mp3"
+  },
+  "en|win": {
+    "text": "win",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-baf75b3fcad2b981057b.mp3"
+  },
+  "en|match": {
+    "text": "match",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-c675b583f6ce0e042842.mp3"
+  },
+  "en|score": {
+    "text": "score",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-c29943cfe26954e54e3c.mp3"
+  },
+  "en|game": {
+    "text": "game",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-379a0786f103de0b6ddc.mp3"
+  },
+  "en|fan": {
+    "text": "fan",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-93978c1ef04d30a2bfe3.mp3"
+  },
+  "en|cup": {
+    "text": "cup",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-3fa8c32406ebbeed5723.mp3"
+  },
+  "en|club": {
+    "text": "club",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-5209ff1355bf99291ab7.mp3"
+  },
+  "en|point": {
+    "text": "point",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-bc510f0fd60e65fadbdc.mp3"
+  },
+  "en|kickoff": {
+    "text": "kickoff",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-262dfb495e7c860c268a.mp3"
+  },
+  "en|half": {
+    "text": "half",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-2daec698ab2ec5ef2722.mp3"
+  },
+  "en|draw": {
+    "text": "draw",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-adc7258cd057bdb5fad0.mp3"
+  },
+  "en|save": {
+    "text": "save",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-3aeeb9b62db12fb7f4d3.mp3"
+  },
+  "en|run": {
+    "text": "run",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-e259f1af59275f4598f6.mp3"
+  },
+  "en|stop": {
+    "text": "stop",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-52073545e66248950dd4.mp3"
+  },
+  "en|kick": {
+    "text": "kick",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-9103582e809290b9c18d.mp3"
+  },
+  "en|shoot": {
+    "text": "shoot",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-4374677e7b4a04e16aa3.mp3"
+  },
+  "en|catch": {
+    "text": "catch",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-1806ae70bb44bb9cb013.mp3"
+  },
+  "en|pass left": {
+    "text": "pass left",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-e16a5e9b74d99ac0ad55.mp3"
+  },
+  "en|run right": {
+    "text": "run right",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-124315c23c86318ff3f2.mp3"
+  },
+  "en|stop the ball": {
+    "text": "stop the ball",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-9a7f75e38650ac914b91.mp3"
+  },
+  "en|catch the ball": {
+    "text": "catch the ball",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-12198f84c9b9f5fb0b61.mp3"
+  },
+  "en|shoot at the goal": {
+    "text": "shoot at the goal",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-273d0cd11a77476ebe2d.mp3"
+  },
+  "en|a ball": {
+    "text": "a ball",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-93eb7cce56440f349785.mp3"
+  },
+  "en|my team": {
+    "text": "my team",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-0d8d9d6b4c2ef7f9c2e8.mp3"
+  },
+  "en|we can win": {
+    "text": "we can win",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-379a35728c11700afa37.mp3"
+  },
+  "en|We are a team.": {
+    "text": "We are a team.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-910807519c143911f5b8.mp3"
+  },
+  "en|This is my ball.": {
+    "text": "This is my ball.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-4d1a31f296a71e5dca54.mp3"
+  },
+  "en|I like football.": {
+    "text": "I like football.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-037d26d10823d023654c.mp3"
+  },
+  "en|My shirt is blue.": {
+    "text": "My shirt is blue.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-7646864164eca25301db.mp3"
+  },
+  "en|The ball is on the line.": {
+    "text": "The ball is on the line.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-7a2b5a5d1f6b03bba239.mp3"
+  },
+  "en|She can run fast.": {
+    "text": "She can run fast.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-eb015a1242cf64703c8e.mp3"
+  },
+  "en|He can kick well.": {
+    "text": "He can kick well.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-ba965cfe86fcf420aee3.mp3"
+  },
+  "en|We play after school.": {
+    "text": "We play after school.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-564634a768d03149fe26.mp3"
+  },
+  "en|We help each other.": {
+    "text": "We help each other.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-e9e5274540d27cabe962.mp3"
+  },
+  "en|Our coach is here.": {
+    "text": "Our coach is here.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-1c4cb79f8f2d2807c683.mp3"
+  },
+  "en|Are you ready?": {
+    "text": "Are you ready?",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-9715f3b3983f864af71f.mp3"
+  },
+  "en|Yes, I am.": {
+    "text": "Yes, I am.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-ffefe3dca7b3d05d30e7.mp3"
+  },
+  "en|Where is the ball?": {
+    "text": "Where is the ball?",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-e2841227eec7d8196409.mp3"
+  },
+  "en|Here it is.": {
+    "text": "Here it is.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-f9e3212a211a2be292aa.mp3"
+  },
+  "en|Pass to me!": {
+    "text": "Pass to me!",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-5627312cbf9a15d51ed1.mp3"
+  },
+  "en|Nice pass!": {
+    "text": "Nice pass!",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-12b86f81da7a07cd30c0.mp3"
+  },
+  "en|What is the score?": {
+    "text": "What is the score?",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-eab155c1f6caad2569af.mp3"
+  },
+  "en|It is 2-1.": {
+    "text": "It is 2-1.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-663d940161616bd3ba50.mp3"
+  },
+  "en|Let us try again.": {
+    "text": "Let us try again.",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-0b6c3395c48052df93c8.mp3"
+  },
+  "en|Good game, team!": {
+    "text": "Good game, team!",
+    "language": "en",
+    "voice": "en-US-JennyNeural",
+    "rate": "-10%",
+    "file": "audio/courses/en-1fb8cb34713ce370a97d.mp3"
+  }
+}

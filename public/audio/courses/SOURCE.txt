@@ -1,0 +1,4 @@
+Fixed neural speech generated from the project curriculum using edge-tts.
+English: en-US-JennyNeural; Mandarin: zh-CN-XiaoxiaoNeural. Rate: -10%.
+Exact spoken text and file mapping: lib/course-audio.json.
+No browser/system speech synthesis is used during gameplay.

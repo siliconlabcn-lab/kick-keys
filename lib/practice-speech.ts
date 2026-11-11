@@ -10,7 +10,7 @@ export function practiceSpeechPlan(task:Task,lesson:Pick<Lesson,'kind'|'ime'|'id
   return {segments:[],english:false,...(audio?{audio:base+audio}:{})};
  }
  if(lesson.kind==='alphabet'||(english&&lesson.stage==='letters')){
-  return {segments:[],english:true,audios:task.input.replace(/[^a-z]/gi,'').toLowerCase().split('').map(letter=>`${base}audio/letters/${letter}.wav`)};
+  return {segments:[],english:true,audios:task.input.replace(/[^a-z]/gi,'').toLowerCase().split('').map(letter=>`${base}audio/letters-en-v2/${letter}.mp3`)};
  }
  const entry=(courseAudio as Record<string,{file:string}>)[`${english?'en':'zh'}|${task.input}`];
  return {segments:[],english,...(entry?{audio:base+entry.file}:{})};

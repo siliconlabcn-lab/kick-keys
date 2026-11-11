@@ -18,7 +18,7 @@ test('all pinyin tasks have a local recording; all words and passages preserve t
    }else if(lesson.kind==='alphabet'||lesson.stage==='letters'){
     assert.deepEqual(plan.segments,[]);assert.ok(plan.audios?.length);
     for(const clip of plan.audios!)assert.ok(existsSync(new URL('../public/'+clip,import.meta.url)));
-    assert.ok(plan.audios!.every(s=>/\/[a-z]\.wav$/.test(s)));
+    assert.ok(plan.audios!.every(s=>/\/[a-z]\.mp3$/.test(s)));
     assert.equal(plan.english,true);
    }else{
     assert.deepEqual(plan.segments,[]);assert.equal(plan.english,lesson.kind==='english');
@@ -30,7 +30,7 @@ test('all pinyin tasks have a local recording; all words and passages preserve t
  }
 });
 test('STU is three letters; ball remains one word; tone recordings differ',()=>{
- assert.deepEqual(practiceSpeechPlan({input:'stu'},getLesson('en-letters-review')).audios,['audio/letters/s.wav','audio/letters/t.wav','audio/letters/u.wav']);
+ assert.deepEqual(practiceSpeechPlan({input:'stu'},getLesson('en-letters-review')).audios,['audio/letters-en-v2/s.mp3','audio/letters-en-v2/t.mp3','audio/letters-en-v2/u.mp3']);
  assert.equal(practiceSpeechPlan({input:'ball',label:'足球'},getLesson('en-positions')).audio,courseAudio['en|ball'].file);
  const tones=getLesson('zh-tones');
  assert.deepEqual(tones.tasks.slice(0,4).map(t=>practiceSpeechPlan(t,tones).audio),['audio/pinyin/ma1.mp3','audio/pinyin/ma2.mp3','audio/pinyin/ma3.mp3','audio/pinyin/ma4.mp3']);
@@ -46,7 +46,7 @@ test('cancelled audio callbacks cannot resume or overlap the next question',asyn
  Object.assign(globalThis,{Audio:MockAudio});
  const player=new SpeechPlayer();
  try{
-  player.play({segments:[],english:true,audios:['s.wav','t.wav','u.wav']},()=>assert.fail('unexpected error'));
+  player.play({segments:[],english:true,audios:['s.mp3','t.mp3','u.mp3']},()=>assert.fail('unexpected error'));
   const old=clips[0],lateEnd=old.onended,lateError=old.onerror;
   player.stop();assert.ok(old.paused);lateEnd();lateError();
   await new Promise(r=>setTimeout(r,160));assert.equal(clips.length,1);
@@ -58,4 +58,13 @@ test('missing recording reports an error without falling back to system speech',
  const player=new SpeechPlayer();let errors=0;
  player.play({segments:['must never be spoken'],english:true},()=>errors++);
  assert.equal(errors,1);player.stop();
+});
+test('football field and World Cup use the same English alphabet recordings',()=>{
+ for(const letter of 'abcdefghijklmnopqrstuvwxyz'){
+  const field=practiceSpeechPlan({input:letter},getLesson('letter-'+letter));
+  const cup=practiceSpeechPlan({input:letter},{id:'en-letters',kind:'english',stage:'letters'});
+  assert.equal(field.english,true);assert.equal(cup.english,true);
+  assert.deepEqual(field.audios,[`audio/letters-en-v2/${letter}.mp3`]);
+  assert.deepEqual(cup.audios,field.audios);
+ }
 });

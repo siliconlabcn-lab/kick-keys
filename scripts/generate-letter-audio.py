@@ -1,16 +1,25 @@
-"""Generate fixed US-English letter names with macOS Samantha, never capital glyphs."""
+"""Generate isolated English alphabet names with the same neural voice as English courses.
+Requires edge-tts. Uppercase letters are individual utterances, never a word or a
+case instruction. Versioned paths prevent browsers reusing previous recordings.
+"""
+import asyncio, json
 from pathlib import Path
-import subprocess,tempfile,json,concurrent.futures
-NAMES=dict(zip('abcdefghijklmnopqrstuvwxyz',['ay','bee','see','dee','ee','eff','gee','aitch','eye','jay','kay','ell','em','en','oh','pee','cue','ar','ess','tee','you','vee','double you','ex','why','zee']))
-ROOT=Path(__file__).resolve().parents[1]/'public/audio/letters'
-ROOT.mkdir(parents=True,exist_ok=True)
-def generate(item):
- letter,name=item
- with tempfile.TemporaryDirectory() as folder:
-  source=Path(folder)/'letter.aiff'
-  subprocess.run(['say','-v','Samantha','-r','155','-o',str(source),name],check=True)
-  subprocess.run(['afconvert','-f','WAVE','-d','LEI16',str(source),str(ROOT/(letter+'.wav'))],check=True)
- return letter
-with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
- print('Generated: '+''.join(pool.map(generate,NAMES.items())))
-(ROOT/'source.json').write_text(json.dumps({'voice':'macOS Samantha (en-US)','rate':155,'spokenNames':NAMES},indent=2)+'\n')
+import edge_tts
+ROOT=Path(__file__).resolve().parents[1]/'public/audio/letters-en-v2'
+VOICE='en-US-JennyNeural'
+async def main():
+ ROOT.mkdir(parents=True,exist_ok=True)
+ semaphore=asyncio.Semaphore(4)
+ async def generate(letter):
+  async with semaphore:
+   for attempt in range(3):
+    try:
+     await edge_tts.Communicate(letter.upper()+'.',VOICE,rate='-10%').save(str(ROOT/(letter+'.mp3')))
+     break
+    except Exception:
+     if attempt==2:raise
+     await asyncio.sleep(2)
+ await asyncio.gather(*(generate(c) for c in 'abcdefghijklmnopqrstuvwxyz'))
+ (ROOT/'source.json').write_text(json.dumps({'voice':VOICE,'language':'en-US','rate':'-10%','spokenText':{c:c.upper()+'.' for c in 'abcdefghijklmnopqrstuvwxyz'}},indent=2)+'\n')
+ print('Generated 26 isolated English letter recordings')
+asyncio.run(main())

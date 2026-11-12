@@ -1,18 +1,26 @@
+import {LESSONS,LETTER_LESSONS} from '../lib/lessons.ts';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {availableStars,destinationOpen,redeemPlayer,recordSkillAchievements,skillCount,PLAYERS} from '../lib/rewards.ts';
 import {createBackup,parseBackup,mergeProgress} from '../lib/progress-backup.ts';
 const p={points:1000,completed:[],records:[]};
-test('redemption deducts once, requires destination and funds',()=>{
- const next=redeemPlayer(p,'sun');assert.equal(availableStars(next),800);assert.equal(availableStars(redeemPlayer(next,'sun')),800);
- assert.equal(redeemPlayer(p,'mitoma'),p);assert.equal(redeemPlayer({...p,points:0},'sun').players,undefined);
- assert.equal(next.points,1000);assert.equal(destinationOpen(next,'cn'),true);
+const brazil={...p,completed:LETTER_LESSONS.map(l=>l.id)};
+const brazilPlayer=PLAYERS.find(p=>p.country==='br')!;
+test('redemption requires the whole module and deducts once',()=>{
+ const base={...brazil,points:10000};const next=redeemPlayer(base,brazilPlayer.id);
+ assert.equal(availableStars(next),10000-brazilPlayer.cost);
+ assert.equal(redeemPlayer(next,brazilPlayer.id),next);
+ assert.equal(redeemPlayer(p,brazilPlayer.id),p);
+ assert.equal(destinationOpen({...brazil,completed:brazil.completed.slice(0,25)},'br'),false);
+ assert.equal(destinationOpen(brazil,'br'),true);
+ assert.equal(destinationOpen(brazil,'cn'),false);
+ assert.ok(PLAYERS.every(p=>!['cn','jp'].includes(p.country)));
 });
-test('legend destinations require progress or qualified final, collection survives backups',()=>{
- assert.equal(destinationOpen(p,'pt'),false);assert.equal(destinationOpen({...p,achievements:['final-pass']},'pt'),true);
- const next=redeemPlayer(p,'sun');assert.deepEqual(parseBackup(createBackup(next)),next);
- assert.equal(availableStars(mergeProgress(next,p)),800);
- assert.equal(availableStars(mergeProgress(next,next)),800);
+test('passport cannot be unlocked by unrelated lessons or a final-pass flag',()=>{
+ assert.equal(destinationOpen({...p,achievements:['final-pass'],completed:Array.from({length:100},(_,i)=>String(i))},'pt'),false);
+ const next=redeemPlayer({...brazil,points:10000},brazilPlayer.id);
+ assert.deepEqual(parseBackup(createBackup(next)),next);
+ assert.equal(availableStars(mergeProgress(next,next)),availableStars(next));
 });
 
 test('skill route grants a legend without stars or map and never refunds purchased cards',()=>{
@@ -20,7 +28,7 @@ test('skill route grants a legend without stars or map and never refunds purchas
  const result=redeemPlayer(skilled,'ronaldo','skill');
  assert.deepEqual(result.players,['ronaldo']);assert.equal(availableStars(result),0);
  assert.equal(redeemPlayer(result,'ronaldo','skill'),result);
- const paid=redeemPlayer({...p,points:9000,completed:Array.from({length:30},(_,i)=>String(i))},'ronaldo');
+ const paid=redeemPlayer({...p,points:9000,completed:LESSONS.filter(l=>l.kind==='english').map(l=>l.id)},'ronaldo');
  assert.equal(availableStars(paid),1000);
  assert.equal(redeemPlayer({...paid,achievements:skilled.achievements},'ronaldo','skill').achievements?.includes('gift:ronaldo'),false);
  assert.equal(availableStars(parseBackup(createBackup(result))),0);

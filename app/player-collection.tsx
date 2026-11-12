@@ -1,9 +1,8 @@
 import {useState} from 'react';
 import {Star, LockKeyhole, CheckCircle2, Trophy, ArrowUpRight, UserRound} from 'lucide-react';
 import type {Progress} from '../lib/player-progress';
-import {PLAYERS,availableStars,destinationOpen,skillCount,DESTINATIONS} from '../lib/rewards';
+import {PLAYERS,availableStars,destinationOpen,skillCount,destinationProgress} from '../lib/rewards';
 const TEAMS=[
- {id:'cn',name:'中国',flag:'🇨🇳',color:'#ad4040'}, {id:'jp',name:'日本',flag:'🇯🇵',color:'#31599a'},
  {id:'br',name:'巴西',flag:'🇧🇷',color:'#84702a'}, {id:'es',name:'西班牙',flag:'🇪🇸',color:'#a84935'},
  {id:'fr',name:'法国',flag:'🇫🇷',color:'#3a5184'}, {id:'ar',name:'阿根廷',flag:'🇦🇷',color:'#447d99'},
  {id:'pt',name:'葡萄牙',flag:'🇵🇹',color:'#366953'},
@@ -13,17 +12,17 @@ function Portrait({photo,name}:{photo?:string;name:string}){
  return photo&&!failed?<img src={photo.startsWith('https:')?photo:`${import.meta.env.BASE_URL}${photo}`} alt={`${name}的真实照片`} loading="lazy" onError={()=>setFailed(true)}/>:<div className="portrait-unavailable"><UserRound size={48}/><span>{name}</span><small>照片暂时无法显示</small></div>;
 }
 export default function PlayerCollection({progress,onClaim,onTrain}:{progress:Progress;onClaim:(id:string,route:'stars'|'skill')=>boolean;onTrain:()=>void}){
- const [team,setTeam]=useState('cn');
+ const [team,setTeam]=useState('br');
  const [notice,setNotice]=useState('');
  const selected=TEAMS.find(t=>t.id===team)!;
  const players=PLAYERS.filter(p=>p.country===team);
  const owned=PLAYERS.filter(p=>progress.players?.includes(p.id)).length;
  const open=destinationOpen(progress,team);
  return <section className="collection" id="player-collection">
-  <header className="collection-heading"><div><span className="eyebrow">YOUR FOOTBALL COLLECTION</span><h2>我的球星卡册</h2><p>7 支国家队 · {PLAYERS.length} 张球星卡 · 已收藏 {owned} 张</p></div><div className="collection-wallet"><Star size={20}/><strong>{availableStars(progress)}</strong><span>可用星星</span></div></header>
+  <header className="collection-heading"><div><span className="eyebrow">YOUR FOOTBALL COLLECTION</span><h2>我的球星卡册</h2><p>{TEAMS.length} 支国家队 · {PLAYERS.length} 张球星卡 · 已收藏 {owned} 张</p></div><div className="collection-wallet"><Star size={20}/><strong>{availableStars(progress)}</strong><span>可用星星</span></div></header>
   <div className="collection-rules"><p><b>慢慢积累，也能遇见传奇。</b> 解锁目的地后用星星兑换；或多次通过 90 秒打字挑战，直接领取，不花星星。每张卡都写明了条件。</p><button className="secondary" onClick={onTrain}><Trophy size={16}/> 去练熟打字</button></div>
   <div className="team-tabs" aria-label="选择国家队">{TEAMS.map(t=><button key={t.id} aria-pressed={team===t.id} onClick={()=>{setTeam(t.id);setNotice('');}}><span>{t.flag}</span><b>{t.name}</b><small>{PLAYERS.filter(p=>p.country===t.id&&progress.players?.includes(p.id)).length} / {PLAYERS.filter(p=>p.country===t.id).length}</small></button>)}</div>
-  <div className="team-collection-heading"><div><h3>{selected.flag} {selected.name} · 球星与传奇</h3><p>跨年代收藏，包含现役与退役球员，不代表当前国家队名单。</p></div><span className="soft-label">{open?'目的地已开放':`地图条件：完成 ${DESTINATIONS.find(d=>d.id===team)?.lessons} 节不同课程`}</span></div>
+  <div className="team-collection-heading"><div><h3>{selected.flag} {selected.name} · 球星与传奇</h3><p>跨年代收藏，包含现役与退役球员，不代表当前国家队名单。</p></div><span className="soft-label">{open?'目的地已开放':`完成整个${destinationProgress(progress,team).title}模块（${destinationProgress(progress,team).done}/${destinationProgress(progress,team).total}）`}</span></div>
   <p className="collection-notice" role="status">{notice}</p>
   <div className="star-card-grid">{players.map(player=>{
    const collected=progress.players?.includes(player.id);

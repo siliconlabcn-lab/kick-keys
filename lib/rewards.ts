@@ -1,10 +1,17 @@
 import type { Progress } from './player-progress';
+import {LESSONS} from './lessons.ts';
 export const DESTINATIONS = [
- {id:'cn', lessons:0}, {id:'jp',lessons:4}, {id:'br',lessons:8},
- {id:'es',lessons:12}, {id:'fr',lessons:18}, {id:'ar',lessons:24}, {id:'pt',lessons:30},
+ {id:'br',kind:'alphabet',title:'字母 A–Z'}, {id:'es',kind:'numbers',title:'数字 0–9'},
+ {id:'fr',kind:'symbols',title:'键盘标点'}, {id:'jp',kind:'basic',title:'指法巩固'},
+ {id:'ar',kind:'pinyin',title:'中文训练'}, {id:'pt',kind:'english',title:'英语训练'},
 ];
+export function destinationProgress(p:Progress,id:string){
+ const d=DESTINATIONS.find(x=>x.id===id);
+ const lessons=d?LESSONS.filter(l=>l.kind===d.kind&&(!['alphabet','numbers'].includes(d.kind)||!!l.focusKey)):[];
+ return {title:d?.title||'',total:lessons.length,done:lessons.filter(l=>p.completed.includes(l.id)).length};
+}
 import catalog from './player-catalog.json' with { type: 'json' };
-export const PLAYERS = catalog;
+export const PLAYERS = catalog.filter(p=>p.country!=='cn'&&p.country!=='jp');
 export function skillCount(p:Progress,player:typeof PLAYERS[number]){
  const saved=p.achievements?.filter(a=>a.startsWith(`typing:${player.cpm}:${player.accuracy}:`)).length||0;
  const records=new Set(p.records.filter(r=>r.id==='test-final'&&r.seconds>=85&&r.cpm>=player.cpm&&r.accuracy>=player.accuracy).map(r=>r.date)).size;
@@ -20,8 +27,8 @@ export function recordSkillAchievements(p:Progress,record:Progress['records'][nu
  }
  return [...achievements];
 }
-export function availableStars(p:Progress){return Math.max(0,p.points-PLAYERS.filter(x=>p.players?.includes(x.id)&&!p.achievements?.includes(`gift:${x.id}`)).reduce((n,x)=>n+x.cost,0));}
-export function destinationOpen(p:Progress,id:string){const d=DESTINATIONS.find(x=>x.id===id);return !!d&&(p.completed.length>=d.lessons||((id==='pt'||id==='ar')&&(p.achievements?.includes('final-pass')||p.records.some(r=>r.id==='test-final'&&r.accuracy>=90&&r.correct>=90))));}
+export function availableStars(p:Progress){return Math.max(0,p.points-catalog.filter(x=>p.players?.includes(x.id)&&!p.achievements?.includes(`gift:${x.id}`)).reduce((n,x)=>n+x.cost,0));}
+export function destinationOpen(p:Progress,id:string){const {total,done}=destinationProgress(p,id);return total>0&&done===total;}
 export function redeemPlayer(p:Progress,id:string,route:'stars'|'skill'='stars'):Progress {
  const player=PLAYERS.find(x=>x.id===id);
  if(!player||p.players?.includes(id))return p;
